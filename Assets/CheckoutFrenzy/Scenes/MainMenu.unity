@@ -2268,6 +2268,264 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1068945037}
   m_CullTransparentMesh: 1
+--- !u!1 &1133824748
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1133824752}
+  - component: {fileID: 1133824751}
+  - component: {fileID: 1133824750}
+  - component: {fileID: 1133824749}
+  m_Layer: 0
+  m_Name: Sc
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1133824749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133824748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b05fbf26023aa4449cbd467d4412e64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShotSound: {fileID: 8300000, guid: 8395331d4bc4a4f4190622709cdef091, type: 3}
+  m_ScreenshotTexture: {fileID: 0}
+  m_GameViewResizingWaitingFrames: 2
+  m_IsRunning: 0
+--- !u!82 &1133824750
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133824748}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &1133824751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133824748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3460ea107bb10f042909825e64f1a885, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Config:
+    m_DestinationFolder: 0
+    m_CustomRootedPath: "C:/Users/aslan/OneDrive/Masa\xFCst\xFC/Yeni klas\xF6r"
+    m_CustomRelativePath: Screenshots/
+    m_FileName: '{width}x{height}-screenshot'
+    m_OverrideFiles: 0
+    m_Format: 0
+    m_ColorFormat: 0
+    m_JPGQuality: 75
+    m_CaptureMode: 2
+    m_MultisamplingAntiAliasing: 8
+    m_RecomputeAlphaLayer: 0
+    m_ShotMode: 0
+    m_MaxBurstShotsNumber: 20
+    m_ShotTimeStep: 0.25
+    m_CameraMode: 0
+    m_Cameras:
+    - m_Active: 1
+      m_Camera: {fileID: 0}
+      m_ClearSettings: 0
+      m_ClearFlags: 1
+      m_BackgroundColor: {r: 1, g: 1, b: 1, a: 1}
+      m_CullingSettings: 0
+      m_CullingMask: -1
+      m_FOVSettings: 0
+      m_FOV: 70
+    m_ResolutionCaptureMode: 1
+    m_Resolutions: []
+    m_CaptureActiveUICanvas: 1
+    m_Overlays: []
+    m_ShowGuidesInPreview: 0
+    m_GuideCanvas: {fileID: 0}
+    m_GuidesColor: {r: 1, g: 1, b: 1, a: 1}
+    m_ShowPreview: 1
+    m_PreviewSize: 1
+    m_PreviewInGameViewWhilePlaying: 0
+    m_PlaySoundOnCapture: 1
+    m_Time: 1
+    m_CaptureHotkey:
+      m_Shift: 0
+      m_Control: 0
+      m_Alt: 0
+      m_Key: 32
+    m_UpdatePreviewHotkey:
+      m_Shift: 0
+      m_Control: 0
+      m_Alt: 0
+      m_Key: 0
+    m_AlignHotkey:
+      m_Shift: 0
+      m_Control: 0
+      m_Alt: 0
+      m_Key: 0
+    m_PauseHotkey:
+      m_Shift: 0
+      m_Control: 0
+      m_Alt: 0
+      m_Key: 0
+  m_PreviewResolution:
+    m_Active: 1
+    m_Width: 200
+    m_Height: 100
+    m_Scale: 1
+    m_PPI: 0
+    m_ForcedUnityPPI: 0
+    m_ResolutionName: 
+    m_Ratio: 
+    m_Stats: 0
+    m_Category: Custom
+    m_FileName: 
+    m_Orientation: 0
+    m_IgnoreOrientation: 0
+  m_GameViewResolution:
+    m_Active: 1
+    m_Width: 230
+    m_Height: 315
+    m_Scale: 1
+    m_PPI: 0
+    m_ForcedUnityPPI: 0
+    m_ResolutionName: GameView
+    m_Ratio: 
+    m_Stats: 0
+    m_Category: Custom
+    m_FileName: 
+    m_Orientation: 0
+    m_IgnoreOrientation: 0
+  m_IsBurstActive: 0
+  m_IsCapturing: 0
+  m_ShowDestination: 1
+  m_ShowName: 1
+  m_ShowCaptureMode: 1
+  m_ShowResolutions: 1
+  m_ShowCameras: 1
+  m_ShowCanvas: 1
+  m_ShowPreview: 1
+  m_ShowCapture: 1
+  m_ShowUtils: 1
+  m_ShowHotkeys: 1
+  m_ShowGallery: 1
+--- !u!4 &1133824752
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133824748}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 960, y: 540, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1210542555
 GameObject:
   m_ObjectHideFlags: 0
@@ -4662,7 +4920,7 @@ PrefabInstance:
     - target: {fileID: 6880357102093893417, guid: e4c548a6595a8bf49b6fbb07cd5ef7a6,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6880357102093893418, guid: e4c548a6595a8bf49b6fbb07cd5ef7a6,
         type: 3}
@@ -4783,3 +5041,4 @@ SceneRoots:
   - {fileID: 1828031817}
   - {fileID: 598007609}
   - {fileID: 1698090667}
+  - {fileID: 1133824752}
