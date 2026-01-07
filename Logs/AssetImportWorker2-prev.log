@@ -1,0 +1,1623 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.23f1 (1c4764c07fb4) revision 1853284'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'tr' Physical Memory: 16163 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+E:/Denizhan/MarketHustle3D
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+57012
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: E:/Denizhan/MarketHustle3D
+E:/Denizhan/MarketHustle3D
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [14396]  Target information:
+
+Player connection [14396]  * "[IP] 192.168.1.102 [Port] 0 [Flags] 2 [Guid] 2737733703 [EditorId] 2737733703 [Version] 1048832 [Id] WindowsEditor(7,Emrah-SAVCI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [14396] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [14396] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 10.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.23f1 (1c4764c07fb4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Denizhan/MarketHustle3D/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   32.0.15.8157
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56132
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.007524 seconds.
+- Loaded All Assemblies, in  0.682 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 381 ms
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.209 seconds
+Domain Reload Profiling: 1888ms
+	BeginReloadAssembly (214ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (83ms)
+	LoadAllAssembliesAndSetupDomain (292ms)
+		LoadAssemblies (210ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (286ms)
+			TypeCache.Refresh (283ms)
+				TypeCache.ScanAssembly (259ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1211ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1112ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (557ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (12ms)
+			ProcessInitializeOnLoadAttributes (331ms)
+			ProcessInitializeOnLoadMethodAttributes (198ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.309 seconds
+Refreshing native plugins compatible for Editor in 5.43 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 5.96 ms, found 3 plugins.
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.117 seconds
+Domain Reload Profiling: 4418ms
+	BeginReloadAssembly (987ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (74ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (84ms)
+	LoadAllAssembliesAndSetupDomain (1131ms)
+		LoadAssemblies (689ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (640ms)
+			TypeCache.Refresh (445ms)
+				TypeCache.ScanAssembly (411ms)
+			BuildScriptInfoCaches (152ms)
+			ResolveRequiredComponents (37ms)
+	FinalizeReload (2118ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1621ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (162ms)
+			ProcessInitializeOnLoadAttributes (1289ms)
+			ProcessInitializeOnLoadMethodAttributes (119ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 8.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 146 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6783 unused Assets / (5.1 MB). Loaded Objects now: 7428.
+Memory consumption went from 182.3 MB to 177.2 MB.
+Total: 36.341600 ms (FindLiveObjects: 3.211200 ms CreateObjectMapping: 2.977300 ms MarkObjects: 21.342700 ms  DeleteObjects: 8.808600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 14755.930236 seconds.
+  path: Assets/CheckoutFrenzy/Prefabs/Buildings/Wall_Door.prefab
+  artifactKey: Guid(33229a3a534a1644182ae9e2e9667d8c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Prefabs/Buildings/Wall_Door.prefab using Guid(33229a3a534a1644182ae9e2e9667d8c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fa817bea99f6c2f020dc17145c8f8ccd') in 0.5763273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/CheckoutFrenzy/Models/Props/Tree02.fbx
+  artifactKey: Guid(ff33db402c4782447bcaf0c3766ad499) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Models/Props/Tree02.fbx using Guid(ff33db402c4782447bcaf0c3766ad499) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4e639409057ed55005b268b4b674e674') in 0.1298824 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/CheckoutFrenzy/Prefabs/CityKit/large_buildingA.prefab
+  artifactKey: Guid(64042ae9ecce62849bc5ab2018f782d6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Prefabs/CityKit/large_buildingA.prefab using Guid(64042ae9ecce62849bc5ab2018f782d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b634cf6d13c6f534f1cb2b7803f839d4') in 0.0449093 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CheckoutFrenzy/Prefabs/CityKit/low_buildingC.prefab
+  artifactKey: Guid(71933cb37a85caf45afe4bc074c2556e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Prefabs/CityKit/low_buildingC.prefab using Guid(71933cb37a85caf45afe4bc074c2556e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7b1e58ef329c0c314290049590eb1c2b') in 0.045455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CheckoutFrenzy/Prefabs/Cars/NormalCar2.prefab
+  artifactKey: Guid(827503e2032fa124f9e5c585f843ee2a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Prefabs/Cars/NormalCar2.prefab using Guid(827503e2032fa124f9e5c585f843ee2a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4300b2fa9acdf7341f981c053e8a73e0') in 0.0873153 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/CheckoutFrenzy/Models/Kenney_City_Kit/low_buildingJ.fbx
+  artifactKey: Guid(bf09a622fd93def4686d86894dd63e37) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Models/Kenney_City_Kit/low_buildingJ.fbx using Guid(bf09a622fd93def4686d86894dd63e37) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7b59b2989e2c324490e125450d0daca8') in 0.0546589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CheckoutFrenzy/Models/Kenney_City_Kit/skyscraperE.fbx
+  artifactKey: Guid(9bd19d571c1af834db22a21aeae5ff77) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Models/Kenney_City_Kit/skyscraperE.fbx using Guid(9bd19d571c1af834db22a21aeae5ff77) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b076dad516200582bdfc27801635ebe3') in 0.0636837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CheckoutFrenzy/Models/Products/Egg01.fbx
+  artifactKey: Guid(41974c774723a894e9838ed00dad6c41) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Models/Products/Egg01.fbx using Guid(41974c774723a894e9838ed00dad6c41) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '597f67c6f9dcdde70a97c9895b01ee0e') in 0.034696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CheckoutFrenzy/Materials/Products/Supplement01.mat
+  artifactKey: Guid(531a1fe711e7f16488bc0edd7d17d32b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Materials/Products/Supplement01.mat using Guid(531a1fe711e7f16488bc0edd7d17d32b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c1b74a346b6b25c9c2dad80752aadec7') in 0.0867817 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/CheckoutFrenzy/Prefabs/Cars/NormalCar1.prefab
+  artifactKey: Guid(947002c207590e444aecd87f57cd1050) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Prefabs/Cars/NormalCar1.prefab using Guid(947002c207590e444aecd87f57cd1050) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '07d68a5c13222a2892ac825bc0c7c959') in 0.0537185 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/AlmostEngine/Shared/Scripts/UnityVersion.cs
+  artifactKey: Guid(b03a3eebd1bd99a4da190f1b07b68353) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AlmostEngine/Shared/Scripts/UnityVersion.cs using Guid(b03a3eebd1bd99a4da190f1b07b68353) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e4c9070715a03d770d042ef19be5d6e3') in 0.0251883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CheckoutFrenzy/Prefabs/Buildings/Entrance.prefab
+  artifactKey: Guid(6bda71f59ab41ae49a25e61751f7f2c0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Prefabs/Buildings/Entrance.prefab using Guid(6bda71f59ab41ae49a25e61751f7f2c0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '695f1cf16d6a772bae0b71ad4fae14b8') in 0.0532894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CheckoutFrenzy/Prefabs/CityKit/skyscraperE.prefab
+  artifactKey: Guid(efef68d554e4fe44785cbb054c048d31) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Prefabs/CityKit/skyscraperE.prefab using Guid(efef68d554e4fe44785cbb054c048d31) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dd5e18f125ec46e5bf339c8f35c03759') in 0.0494159 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/CheckoutFrenzy/Prefabs/CityKit/low_wideB.prefab
+  artifactKey: Guid(b18f0caa956268b42b598f9cfd8df72e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Prefabs/CityKit/low_wideB.prefab using Guid(b18f0caa956268b42b598f9cfd8df72e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6898f61e3e51be322cb3d7edb489e59d') in 0.0609186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CheckoutFrenzy/Prefabs/Products/Egg01.prefab
+  artifactKey: Guid(6367a3ce778e3dd4db18960ce01571cb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Prefabs/Products/Egg01.prefab using Guid(6367a3ce778e3dd4db18960ce01571cb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a4ab22f3614140e3101eb4efce0eb85a') in 0.0443882 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/CheckoutFrenzy/Prefabs/Employees/Janitor.prefab
+  artifactKey: Guid(768f899885a8476469709b9036837912) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Prefabs/Employees/Janitor.prefab using Guid(768f899885a8476469709b9036837912) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'deeab6a80f879353dffe5861855c2d40') in 0.3147314 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 167
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CheckoutFrenzy/Prefabs/CityKit/low_buildingE.prefab
+  artifactKey: Guid(db0dfee39fb689f48a638b5687a530f5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Prefabs/CityKit/low_buildingE.prefab using Guid(db0dfee39fb689f48a638b5687a530f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fb0f5e8d2381f56bf709954ef4da8443') in 0.0458046 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/CheckoutFrenzy/Prefabs/CityKit/skyscraperB.prefab
+  artifactKey: Guid(67d8ed31e532b4646b94b82f120ff956) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Prefabs/CityKit/skyscraperB.prefab using Guid(67d8ed31e532b4646b94b82f120ff956) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a7cf62af27960d1d086e4aeae0bf391b') in 0.0427848 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CheckoutFrenzy/Prefabs/CityKit/skyscraperD.prefab
+  artifactKey: Guid(6ac403ab07f3a02469ae0f38752b3dc1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Prefabs/CityKit/skyscraperD.prefab using Guid(6ac403ab07f3a02469ae0f38752b3dc1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3a2c985a4adcc82b3eba895dacd9afb3') in 0.0454486 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CheckoutFrenzy/Resources/Boxes/Box_50x50x40.prefab
+  artifactKey: Guid(a668f6bd3aca6f140877fb56ac58b045) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Resources/Boxes/Box_50x50x40.prefab using Guid(a668f6bd3aca6f140877fb56ac58b045) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '14e855b431f5318d16dc2ba119c7db3e') in 0.0632804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CheckoutFrenzy/Prefabs/Products/LightBulb01.prefab
+  artifactKey: Guid(130eeca26bc01b74cbbadf046f9dd9e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Prefabs/Products/LightBulb01.prefab using Guid(130eeca26bc01b74cbbadf046f9dd9e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c544754b118ca11a13509fd2decda71a') in 0.0431967 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/CheckoutFrenzy/Prefabs/UI/SettingsWindow.prefab
+  artifactKey: Guid(63bf803d262baba4b846f1f659b6ae58) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Prefabs/UI/SettingsWindow.prefab using Guid(63bf803d262baba4b846f1f659b6ae58) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Refreshing native plugins compatible for Editor in 7.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ -> (artifact id: 'bf0c8c7ac92ea22c657a58cf98e94939') in 0.1937378 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 98
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/CheckoutFrenzy/Prefabs/UI/CartItem.prefab
+  artifactKey: Guid(5c3f6d8c8a5570a49905428add28fba9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Prefabs/UI/CartItem.prefab using Guid(5c3f6d8c8a5570a49905428add28fba9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5486f693adc1cd7979fafcafcae6b69c') in 0.086252 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CheckoutFrenzy/Prefabs/Products/Pasta01.prefab
+  artifactKey: Guid(fe933aaae5a47954fab99f611479de56) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Prefabs/Products/Pasta01.prefab using Guid(fe933aaae5a47954fab99f611479de56) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7a760873e0fd05d6f17eaee5d327dfb9') in 0.0454027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/CheckoutFrenzy/Prefabs/Props/Tree02.prefab
+  artifactKey: Guid(05df1d22915f2fd449ea0f86fff1dfcb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Prefabs/Props/Tree02.prefab using Guid(05df1d22915f2fd449ea0f86fff1dfcb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '312dee813d3107d4f2c6c59bd7d876ac') in 0.0721302 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CheckoutFrenzy/Prefabs/UI/LicenseListing.prefab
+  artifactKey: Guid(1a20ec3ce002ab1499d5b644f569e4ad) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Prefabs/UI/LicenseListing.prefab using Guid(1a20ec3ce002ab1499d5b644f569e4ad) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dbe657d56ab850c1c83d495b2682462c') in 0.1074712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/CheckoutFrenzy/Resources/Licenses/License06.asset
+  artifactKey: Guid(c6bea22415be5df4983f202ebd4e6d9b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Resources/Licenses/License06.asset using Guid(c6bea22415be5df4983f202ebd4e6d9b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '17a2b6331f35133ccf99abfbcbe186ca') in 0.0630513 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 164
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CheckoutFrenzy/Resources/Licenses/License01.asset
+  artifactKey: Guid(cebd81858a3a1c3458634eb605fcda43) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Resources/Licenses/License01.asset using Guid(cebd81858a3a1c3458634eb605fcda43) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '08195093f301bd0a577bc8f56b7cada5') in 0.0519757 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 77
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/CheckoutFrenzy/Resources/Furnitures/Freezer01.prefab
+  artifactKey: Guid(349de6b348cdefd47a09581394c1e0d0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Resources/Furnitures/Freezer01.prefab using Guid(349de6b348cdefd47a09581394c1e0d0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '33fa73753c00ab0882142eeb798bc6b5') in 0.0934787 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/CheckoutFrenzy/Resources/Missions/Mission003.asset
+  artifactKey: Guid(a86f39cd6ad65ea46a3ffe0a55a1d0c5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Resources/Missions/Mission003.asset using Guid(a86f39cd6ad65ea46a3ffe0a55a1d0c5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '69386070ab198ea3b2e1b60296c01eaa') in 0.0274883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/CheckoutFrenzy/Resources/LoanTemplates/SmallLoan.asset
+  artifactKey: Guid(eeb40f838f1e6c4439fba5e86023aff0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Resources/LoanTemplates/SmallLoan.asset using Guid(eeb40f838f1e6c4439fba5e86023aff0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '741e15fb484dea68f9088ad044627882') in 0.0247228 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/CheckoutFrenzy/Resources/Licenses/License04.asset
+  artifactKey: Guid(cc9994319fee39343a87d2da6ca50774) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Resources/Licenses/License04.asset using Guid(cc9994319fee39343a87d2da6ca50774) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '15c35a5e65c2fdf73fb674639bf07654') in 0.0327979 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 77
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/CheckoutFrenzy/Resources/LoanTemplates/RiskyLoan.asset
+  artifactKey: Guid(ad49cbaab54c599418c53b445a4d00a1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Resources/LoanTemplates/RiskyLoan.asset using Guid(ad49cbaab54c599418c53b445a4d00a1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2306963a71dee0116f88b72e6ecfb9cd') in 0.0259801 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TutorialInfo/Layout.wlt
+  artifactKey: Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TutorialInfo/Layout.wlt using Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a66a01714b1509b90dc0f58352fa2eb7') in 0.047701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/CheckoutFrenzy/Sprites/MainMenu.png
+  artifactKey: Guid(9575fba0a7a71b849ab310a2736b0d04) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Sprites/MainMenu.png using Guid(9575fba0a7a71b849ab310a2736b0d04) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cd96f7d626d4a0fdc01f1341552250be') in 0.1533747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/CheckoutFrenzy/Resources/Products/Oil01.asset
+  artifactKey: Guid(aee2806b0482aa044909d8dcdc4b4fd7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Resources/Products/Oil01.asset using Guid(aee2806b0482aa044909d8dcdc4b4fd7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3834f90b0607fbd7d0fe460e832e1f12') in 0.0308499 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/CheckoutFrenzy/Resources/Products/Cereal01_B.asset
+  artifactKey: Guid(bd4f5cc354b53af4ea4614384e93b1dc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Resources/Products/Cereal01_B.asset using Guid(bd4f5cc354b53af4ea4614384e93b1dc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '744c685698643e193fd67026edf9ffb1') in 0.028286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CheckoutFrenzy/Scripts/CheckoutSystem/CheckoutItem.cs
+  artifactKey: Guid(d1c6e220ee771c64aa955133eaf8045f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Scripts/CheckoutSystem/CheckoutItem.cs using Guid(d1c6e220ee771c64aa955133eaf8045f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f6b86be1e07c1a213c68e29c8be9d0dd') in 0.0236275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/CheckoutFrenzy/ScriptableObjects/Dialogues/OverpricedDialogue.asset
+  artifactKey: Guid(af2dac0d516a3544fa7812e01eab07f7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/ScriptableObjects/Dialogues/OverpricedDialogue.asset using Guid(af2dac0d516a3544fa7812e01eab07f7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c0c15d97e02accc8b7e51b3367b90497') in 0.0236264 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/CheckoutFrenzy/Resources/Products/LightBulb01.asset
+  artifactKey: Guid(172073ee7b2bda04eb5f9c349311f5ff) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Resources/Products/LightBulb01.asset using Guid(172073ee7b2bda04eb5f9c349311f5ff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '42b8fddf2cca035d72a7ecb9dc7a9ce8') in 0.0304489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CheckoutFrenzy/Resources/Products/IceCream02.asset
+  artifactKey: Guid(9154e5e59abe20643b4b0ac2f636c275) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Resources/Products/IceCream02.asset using Guid(9154e5e59abe20643b4b0ac2f636c275) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1c35ee72b8efe4a008a352d448c9950d') in 0.0558015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/CheckoutFrenzy/Resources/Products/Juice01_B.asset
+  artifactKey: Guid(b6668af24c1aa5b4e91e6e3cb4a8c962) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Resources/Products/Juice01_B.asset using Guid(b6668af24c1aa5b4e91e6e3cb4a8c962) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fc172c23dfad6b6e53191ca5bf35b36e') in 0.0304163 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/AlmostEngine/Shared/Scripts/CameraController.cs
+  artifactKey: Guid(c993f662471e794408aefee7b7352d33) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AlmostEngine/Shared/Scripts/CameraController.cs using Guid(c993f662471e794408aefee7b7352d33) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1525c5b98542120fdf1f642a03410819') in 0.0238195 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/CheckoutFrenzy/Models/Kenney_City_Kit/low_buildingC.fbx
+  artifactKey: Guid(09e36123a14afcf4ab7e09abd11c5867) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Models/Kenney_City_Kit/low_buildingC.fbx using Guid(09e36123a14afcf4ab7e09abd11c5867) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '04f2f8ebf723d867d82ded97e73009fb') in 0.035067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CheckoutFrenzy/Models/Buildings/Wall_Partition.fbx
+  artifactKey: Guid(1106935643b27d74a99739cc64aee6b4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Models/Buildings/Wall_Partition.fbx using Guid(1106935643b27d74a99739cc64aee6b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '875a9398abc8972d926a175ad9ccf1f6') in 0.0374061 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+  artifactKey: Guid(48bb5f55d8670e349b6e614913f9d910) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader using Guid(48bb5f55d8670e349b6e614913f9d910) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '14ae3f006e9511879f70cc91162a5abe') in 0.0297308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/CheckoutFrenzy/Scripts/Furnitures/Fridge.cs
+  artifactKey: Guid(1f35e314c6d7a8d4985b57cea1d8b14b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Scripts/Furnitures/Fridge.cs using Guid(1f35e314c6d7a8d4985b57cea1d8b14b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd2683ab526420fe38a8a58b06f47e8a4') in 0.0251444 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/CheckoutFrenzy/Scripts/Data/ShelfData.cs
+  artifactKey: Guid(da9ae06b8b68f924391b5845847c7c88) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Scripts/Data/ShelfData.cs using Guid(da9ae06b8b68f924391b5845847c7c88) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9ec36a5d93d2d6e8c30afe5717f41c7e') in 0.0282855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/CheckoutFrenzy/Scripts/Finance/LoanTemplate.cs
+  artifactKey: Guid(c6fc7daee7b2ffc42af688162281e489) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Scripts/Finance/LoanTemplate.cs using Guid(c6fc7daee7b2ffc42af688162281e489) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a1f4306f6324c9334f6717bf5eeade1f') in 0.0248598 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/CheckoutFrenzy/Scripts/Finance/BillTemplate.cs
+  artifactKey: Guid(adc96364c7cec354ca2963593877dbcc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Scripts/Finance/BillTemplate.cs using Guid(adc96364c7cec354ca2963593877dbcc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '856e20e184c70ed03a5a54a8dd51a71f') in 0.0251851 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CheckoutFrenzy/Scripts/ExtensionMethods/Vector3Extensions.cs
+  artifactKey: Guid(e1022bfdba5beb041947a10ed8405978) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Scripts/ExtensionMethods/Vector3Extensions.cs using Guid(e1022bfdba5beb041947a10ed8405978) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e93554ba0597a15855bd830951b6ca95') in 0.0244702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/CheckoutFrenzy/Scripts/Furnitures/FurnitureBox.cs
+  artifactKey: Guid(a052597b117c4ab41a4d71ddbad4e666) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Scripts/Furnitures/FurnitureBox.cs using Guid(a052597b117c4ab41a4d71ddbad4e666) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4a6b0c08cc2bb0cad3919f533baad4da') in 0.0224359 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/CheckoutFrenzy/Scripts/Furnitures/Furniture.cs
+  artifactKey: Guid(ec1e061625946944b9c6e34f5af5190d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Scripts/Furnitures/Furniture.cs using Guid(ec1e061625946944b9c6e34f5af5190d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ef7d7120ab4b592a01379cb6a9daaa4a') in 0.0542445 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/CheckoutFrenzy/Scripts/Cleaning/CleaningTool.cs
+  artifactKey: Guid(391c6fbab47e5184ab8efda616852cd9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Scripts/Cleaning/CleaningTool.cs using Guid(391c6fbab47e5184ab8efda616852cd9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c4cd360a19f907a7f0bf0240aa4feb1f') in 0.0269844 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/CheckoutFrenzy/Scripts/Data/BoxData.cs
+  artifactKey: Guid(3d266b90269bed648abf4185034fd347) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Scripts/Data/BoxData.cs using Guid(3d266b90269bed648abf4185034fd347) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a3abab64fb6222db2a3e8b948b062bd') in 0.0301016 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/CheckoutFrenzy/Scripts/Data/EmployeeData.cs
+  artifactKey: Guid(29a88d97be401484d8350625a3e7537a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Scripts/Data/EmployeeData.cs using Guid(29a88d97be401484d8350625a3e7537a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a0e4e71cef56b3b424567d92304acb18') in 0.0251155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/CheckoutFrenzy/Scripts/Customer/Customer.cs
+  artifactKey: Guid(2e2ad1d052ca87846938f7163f896385) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Scripts/Customer/Customer.cs using Guid(2e2ad1d052ca87846938f7163f896385) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5a84a7b8c646c0ae79fa528d4be3e528') in 0.0256665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CheckoutFrenzy/Scripts/Data/CustomPrice.cs
+  artifactKey: Guid(a3ca52081b676024bbfcdc29d21c6d21) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Scripts/Data/CustomPrice.cs using Guid(a3ca52081b676024bbfcdc29d21c6d21) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1d4ac3bb44949aae0508594730fcf346') in 0.0270078 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/CheckoutFrenzy/Animations/Clips/Walk.anim
+  artifactKey: Guid(aa5c6e3f33f481d43aec75a5fd9634d2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Animations/Clips/Walk.anim using Guid(aa5c6e3f33f481d43aec75a5fd9634d2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6f0f656ece795f1ea95a1d2931f6314a') in 0.0916478 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CheckoutFrenzy/Scripts/UI/MissionTracker.cs
+  artifactKey: Guid(cc972529b615e9947ab2a9b49f2be441) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Scripts/UI/MissionTracker.cs using Guid(cc972529b615e9947ab2a9b49f2be441) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1c97d84425fe00d431f2f21a43f01e1b') in 0.0222284 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/CheckoutFrenzy/Scripts/Interfaces/IInteractable.cs
+  artifactKey: Guid(ba7e9b45bce763244bded92d74502b3f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Scripts/Interfaces/IInteractable.cs using Guid(ba7e9b45bce763244bded92d74502b3f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c1975e8ba318e9cc5185601941c1e181') in 0.0215885 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/CheckoutFrenzy/Scripts/UI/VirtualKeyboard.cs
+  artifactKey: Guid(98990b48e02007340a261a0993640f4d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Scripts/UI/VirtualKeyboard.cs using Guid(98990b48e02007340a261a0993640f4d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7bfb088d72c558e0a0bd23c644e1146b') in 0.0219184 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/CheckoutFrenzy/Scripts/TimeSystem/TimeManager.cs
+  artifactKey: Guid(285970d18873ead42ac9894523fb1271) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Scripts/TimeSystem/TimeManager.cs using Guid(285970d18873ead42ac9894523fb1271) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fb7ac40fe7f242772bf5a664254aa3b4') in 0.0233678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/CheckoutFrenzy/Scripts/Store/StoreTitle.cs
+  artifactKey: Guid(95007a78f8abcf54b9039d357d0b5498) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Scripts/Store/StoreTitle.cs using Guid(95007a78f8abcf54b9039d357d0b5498) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '58ebcd30200df4d0aa89105ff1609e35') in 0.0213708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/CheckoutFrenzy/Scripts/Interfaces/IEmployeeTarget.cs
+  artifactKey: Guid(2e95c7c0671530847a29cad8b29c3fe1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Scripts/Interfaces/IEmployeeTarget.cs using Guid(2e95c7c0671530847a29cad8b29c3fe1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5d3513982218d700d8b4211680a870d3') in 0.0222466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/CheckoutFrenzy/Scripts/Store/Door.cs
+  artifactKey: Guid(ce9c0b406446c634d8696540c31f1b51) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Scripts/Store/Door.cs using Guid(ce9c0b406446c634d8696540c31f1b51) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '629d7331682b5b5a5da11e240f9a575d') in 0.0213639 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/CheckoutFrenzy/Scripts/ProductContainer/ProductContainer.cs
+  artifactKey: Guid(9d8d002acde760941bd2fdf50a6e40da) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Scripts/ProductContainer/ProductContainer.cs using Guid(9d8d002acde760941bd2fdf50a6e40da) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c3c3a280cecb3778f656d0bb124cdc92') in 0.0227508 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/CheckoutFrenzy/Scripts/Store/PC.cs
+  artifactKey: Guid(d4d688bf715399a4fb57ba5759a80c09) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Scripts/Store/PC.cs using Guid(d4d688bf715399a4fb57ba5759a80c09) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '66c7cc9854768211a597833698f251ac') in 0.023894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/CheckoutFrenzy/Scripts/UI/SummaryScreen.cs
+  artifactKey: Guid(19ffeb9de390e1545b48b53b17ff8703) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Scripts/UI/SummaryScreen.cs using Guid(19ffeb9de390e1545b48b53b17ff8703) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eccb9a29d6d7dc7387713ce7ddd130ab') in 0.0221325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/CheckoutFrenzy/Scenes/Game.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Scenes/Game.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fee084a3140118cb77203c839adddeb3') in 0.1591768 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/CheckoutFrenzy/Sounds/BGM/Picnic On The Seine by John Bartmann.wav
+  artifactKey: Guid(c9e8f6a7ab8949e459e5c800977e9301) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Sounds/BGM/Picnic On The Seine by John Bartmann.wav using Guid(c9e8f6a7ab8949e459e5c800977e9301) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a8bbfb20589880f5bfe8d09ca3aa0d85') in 0.2152284 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/CheckoutFrenzy/Sounds/BGM/Du Nord Station Bustle by John Bartmann.wav
+  artifactKey: Guid(856c9eaf0e205f24dbed9a2c4f06ae3e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Sounds/BGM/Du Nord Station Bustle by John Bartmann.wav using Guid(856c9eaf0e205f24dbed9a2c4f06ae3e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b2965b7f16b17084e8e1e6879ba1f17b') in 0.3548798 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/CheckoutFrenzy/Sprites/UI/Arrow_Up.png
+  artifactKey: Guid(46bb36e80ee36634cab6eade1163196b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Sprites/UI/Arrow_Up.png using Guid(46bb36e80ee36634cab6eade1163196b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '59d0def1246f0bc409b99d857c3a2cc8') in 0.0371888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CheckoutFrenzy/Sounds/SFX/LevelUp.wav
+  artifactKey: Guid(f4feb0ef02d14864d90773f62b976723) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Sounds/SFX/LevelUp.wav using Guid(f4feb0ef02d14864d90773f62b976723) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ceb63548b68aebc79102cfc7858ff382') in 0.0492362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CheckoutFrenzy/Sprites/UI/Bill.png
+  artifactKey: Guid(c0b6062130a53854aa08e23a7527ef9a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Sprites/UI/Bill.png using Guid(c0b6062130a53854aa08e23a7527ef9a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'df00b531bc64e4e9a4b5aac851b5041e') in 0.0380637 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CheckoutFrenzy/Sprites/Products/SoftDrink01.png
+  artifactKey: Guid(e09a2b067d77b964bad2627a56317a5c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Sprites/Products/SoftDrink01.png using Guid(e09a2b067d77b964bad2627a56317a5c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f2a1317f35088d657a97de74fe6b3a9e') in 0.040745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CheckoutFrenzy/Sprites/Furnitures/ShelvingUnit01.png
+  artifactKey: Guid(559bf7a173a026c4e95b834f12b38eac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Sprites/Furnitures/ShelvingUnit01.png using Guid(559bf7a173a026c4e95b834f12b38eac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e17891e66ce6734707eb17961c911f74') in 0.06278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/CheckoutFrenzy/Sprites/Products/Milk01.png
+  artifactKey: Guid(6ff307f2af9697e44bbed71e763927fb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Sprites/Products/Milk01.png using Guid(6ff307f2af9697e44bbed71e763927fb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '353fbf5ce8f99eea0268ad22bbe68c93') in 0.0380466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/CheckoutFrenzy/Sprites/Products/Sugar01.png
+  artifactKey: Guid(623e1e3d4f6272148be25866e3d2acdd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Sprites/Products/Sugar01.png using Guid(623e1e3d4f6272148be25866e3d2acdd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '77479bacd7e1c29429f8144deef09abe') in 0.0350498 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CheckoutFrenzy/Sprites/UI/Loan.png
+  artifactKey: Guid(b5cf4c718156dfb46baf5184b3fbbb20) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Sprites/UI/Loan.png using Guid(b5cf4c718156dfb46baf5184b3fbbb20) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '35adcbf365c5a3526e7bccf854b10295') in 0.0387236 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/CheckoutFrenzy/Textures/Buildings/Ceiling_Albedo.png
+  artifactKey: Guid(3c48d0738aa50b848b83c9dc70fbe701) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Textures/Buildings/Ceiling_Albedo.png using Guid(3c48d0738aa50b848b83c9dc70fbe701) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5e39e5c0a7856b89c333c326d338ef5c') in 0.0388067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CheckoutFrenzy/Textures/Products/Cheese01.png
+  artifactKey: Guid(56d931b1fd224024ea289d0f834f90fa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Textures/Products/Cheese01.png using Guid(56d931b1fd224024ea289d0f834f90fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bef17c6ed24e61b5f838e18c73dd2322') in 0.038161 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CheckoutFrenzy/Sprites/UI/Key_Esc.png
+  artifactKey: Guid(18a072b0d04ccaf498a3c9d9c1c44492) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Sprites/UI/Key_Esc.png using Guid(18a072b0d04ccaf498a3c9d9c1c44492) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ccd8709d2ad750518f79c47646653d2a') in 0.043956 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/CheckoutFrenzy/Textures/Products/Cereal_01_B.png
+  artifactKey: Guid(b31a15eeabea6e64e82f59bb51c62ccd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Textures/Products/Cereal_01_B.png using Guid(b31a15eeabea6e64e82f59bb51c62ccd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '88d6cbe320f3461af9bd1283f5afa058') in 0.0660664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/CheckoutFrenzy/Sprites/Products/BottledWater01.png
+  artifactKey: Guid(eb835dd2862b2334a95355314733979e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Sprites/Products/BottledWater01.png using Guid(eb835dd2862b2334a95355314733979e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '68e2f5993a9284e1deda202b96e5072f') in 0.0402787 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CheckoutFrenzy/Sprites/Products/LightBulb01.png
+  artifactKey: Guid(fd42637391e5dbe4ba698594c45e5364) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Sprites/Products/LightBulb01.png using Guid(fd42637391e5dbe4ba698594c45e5364) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3829dde2cdb8a7548a0d1baba15ae9da') in 0.0404957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CheckoutFrenzy/Sprites/UI/Exclamation.png
+  artifactKey: Guid(f6ccd69604a08784da7f81594b2eb81c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Sprites/UI/Exclamation.png using Guid(f6ccd69604a08784da7f81594b2eb81c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8c8ee5468e74cf2b63df223f552b589d') in 0.0399065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CheckoutFrenzy/Sounds/SFX/Beep.wav
+  artifactKey: Guid(3e97a58dfb9ce9444aeb636db9601c6c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Sounds/SFX/Beep.wav using Guid(3e97a58dfb9ce9444aeb636db9601c6c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9cfdcaabe29c49e5a2adf9ed033bb066') in 0.0637933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Plugins/SimpleInput/Example/ExampleScene.unity
+  artifactKey: Guid(e33a0aeabb903c842bad84315710646c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/SimpleInput/Example/ExampleScene.unity using Guid(e33a0aeabb903c842bad84315710646c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5add6ed05839e4bc428b820083d64321') in 0.068127 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/CheckoutFrenzy/Textures/Products/IceCream01.png
+  artifactKey: Guid(13c84af76173ba343989385abd9a319f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Textures/Products/IceCream01.png using Guid(13c84af76173ba343989385abd9a319f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5873dbdccd1b6e5febaefe54b2fa81da') in 0.0361574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CheckoutFrenzy/Sprites/Products/IceCream01.png
+  artifactKey: Guid(9904d6f014689574881e47918d65cdd0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Sprites/Products/IceCream01.png using Guid(9904d6f014689574881e47918d65cdd0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd6994c43882d48e292182e81f75d0808') in 0.0406613 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CheckoutFrenzy/Sprites/UI/PaintBrush.png
+  artifactKey: Guid(a95013566e49064458b03c7b15fc58e7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Sprites/UI/PaintBrush.png using Guid(a95013566e49064458b03c7b15fc58e7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b305df24fdacdd94741a976d7282d9fb') in 0.036715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CheckoutFrenzy/Sounds/SFX/EntranceOpen.wav
+  artifactKey: Guid(1c2a08bd7bc04524bbaa082bf05b84c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Sounds/SFX/EntranceOpen.wav using Guid(1c2a08bd7bc04524bbaa082bf05b84c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8126f3cea3bfc64dfb2a71be93496798') in 0.0688746 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/CheckoutFrenzy/Sounds/BGM/Mellow Cafe Vibe by John Bartmann.wav
+  artifactKey: Guid(495b263f3ab909842b7a78b6c33f596a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Sounds/BGM/Mellow Cafe Vibe by John Bartmann.wav using Guid(495b263f3ab909842b7a78b6c33f596a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eee097765949fcb9fa96b28beca621f0') in 0.3718144 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1a7133bbe3476c46a2bbf3f2565b9fec') in 0.0742261 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/AlmostEngine/UltimateScreenshotCreator/Assets/Scripts/ScreenshotConfig.cs
+  artifactKey: Guid(8a6fb99a3b860f443964bc6c624948e8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AlmostEngine/UltimateScreenshotCreator/Assets/Scripts/ScreenshotConfig.cs using Guid(8a6fb99a3b860f443964bc6c624948e8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '264f46f1446d796410affffd555e74e5') in 0.0245191 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/AlmostEngine/UltimateScreenshotCreator/Example/Scripts/APITest.cs
+  artifactKey: Guid(5126c0252f1a1c34c94d27e3f6c06784) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AlmostEngine/UltimateScreenshotCreator/Example/Scripts/APITest.cs using Guid(5126c0252f1a1c34c94d27e3f6c06784) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '92b1ac70d7d8144a81134236b9098c46') in 0.0225303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/AlmostEngine/UltimateScreenshotCreator/Assets/Textures/camera_target.png
+  artifactKey: Guid(b86bb0b9ce5000c47a6a3066bc0cc918) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AlmostEngine/UltimateScreenshotCreator/Assets/Textures/camera_target.png using Guid(b86bb0b9ce5000c47a6a3066bc0cc918) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd216455f5f5591aa06452eada262aad8') in 0.0725671 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/AlmostEngine/UltimateScreenshotCreator/Assets/Scripts/ScreenshotCutter.cs
+  artifactKey: Guid(fbf53ecfb373dd449b02c1db6398ac1b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AlmostEngine/UltimateScreenshotCreator/Assets/Scripts/ScreenshotCutter.cs using Guid(fbf53ecfb373dd449b02c1db6398ac1b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '732d6b82572af1d8ffb4210b6fd035e0') in 0.0234683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/CheckoutFrenzy/Materials/Cleaning/Effects/DropletMaterial.mat
+  artifactKey: Guid(dc525ea023bb47945b5ea0836e90af2d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Materials/Cleaning/Effects/DropletMaterial.mat using Guid(dc525ea023bb47945b5ea0836e90af2d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3e32d6aac593ee52686d715a9a59c0e3') in 0.0320981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AlmostEngine/UltimateScreenshotCreator/Example/Textures/UnityWhite.png
+  artifactKey: Guid(ec736f1372aa3d7498789bf371ef627f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AlmostEngine/UltimateScreenshotCreator/Example/Textures/UnityWhite.png using Guid(ec736f1372aa3d7498789bf371ef627f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '26f99bb7ef1c2d74f2ba7b9ecf465994') in 0.0575721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/AlmostEngine/UltimateScreenshotCreator/Example/Textures/GameLogo.png
+  artifactKey: Guid(d495bbec296705e4190694c0d9b71167) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AlmostEngine/UltimateScreenshotCreator/Example/Textures/GameLogo.png using Guid(d495bbec296705e4190694c0d9b71167) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b449c4ccb4558c04bc957786f07b7d35') in 0.0395282 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AlmostEngine/UltimateScreenshotCreator/Example/Scripts/Bounce.cs
+  artifactKey: Guid(22266713634ebea4c9c0ee61b418fdb4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AlmostEngine/UltimateScreenshotCreator/Example/Scripts/Bounce.cs using Guid(22266713634ebea4c9c0ee61b418fdb4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0f282a8fbc6243b51a36ca245a36b40c') in 0.0248739 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/CheckoutFrenzy/Models/Quaternius_Modular_Characters/Men/Adventurer.fbx
+  artifactKey: Guid(06030bcc483e7004fbb2625e8e5fb863) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Models/Quaternius_Modular_Characters/Men/Adventurer.fbx using Guid(06030bcc483e7004fbb2625e8e5fb863) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '95d29c1104dc24e76bd03151e122235b') in 0.0825179 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 116
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AlmostEngine/UltimateScreenshotCreator/Example/Prefabs/MessageCanvas.prefab
+  artifactKey: Guid(cd303fd07c412064cb7c8d39ace2328e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AlmostEngine/UltimateScreenshotCreator/Example/Prefabs/MessageCanvas.prefab using Guid(cd303fd07c412064cb7c8d39ace2328e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8f8444dcd13b4ac998b2191071c2a129') in 0.0823761 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/CheckoutFrenzy/Textures/Products/IceCream02.png
+  artifactKey: Guid(acfc1fb097ec06d46b72f5cae7116616) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Textures/Products/IceCream02.png using Guid(acfc1fb097ec06d46b72f5cae7116616) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '38929182f68a2584cfd1b8b67a34f65f') in 0.0395498 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Plugins/SimpleInput/Prefabs/DpadOnePiece.prefab
+  artifactKey: Guid(fc57d97f3d02d954fb2ef7f56d585ce3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/SimpleInput/Prefabs/DpadOnePiece.prefab using Guid(fc57d97f3d02d954fb2ef7f56d585ce3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ef51f292d307785a9eee5af6265c0c01') in 0.076918 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CheckoutFrenzy/Prefabs/Customers/Men/Suit.prefab
+  artifactKey: Guid(4d2b7189221489f41b6e290f0611f552) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Prefabs/Customers/Men/Suit.prefab using Guid(4d2b7189221489f41b6e290f0611f552) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f8e0e07009d487033648c164cd3363bb') in 0.3854043 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 170
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/CheckoutFrenzy/Prefabs/Cleaning/MessPrefabs/DustsQuad.prefab
+  artifactKey: Guid(3424f291fe995344e84ca70cfb46cfd2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Prefabs/Cleaning/MessPrefabs/DustsQuad.prefab using Guid(3424f291fe995344e84ca70cfb46cfd2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '93cce3993828aa0fb3dfc05e6bde64a4') in 0.0703657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/CheckoutFrenzy/Prefabs/Customers/Women/SciFi.prefab
+  artifactKey: Guid(b6c59cb2bab11db4d941157f240ab98a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Prefabs/Customers/Women/SciFi.prefab using Guid(b6c59cb2bab11db4d941157f240ab98a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '25c643da13e28e67646cd748f19f08cb') in 0.3764994 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 170
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/CheckoutFrenzy/Models/Quaternius_Modular_Characters/Women/Soldier.fbx
+  artifactKey: Guid(6ff72303734a3984c84cec36349cc219) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Models/Quaternius_Modular_Characters/Women/Soldier.fbx using Guid(6ff72303734a3984c84cec36349cc219) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6996401a1cf97d595966e95f6dbc5559') in 0.0442751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 116
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/CheckoutFrenzy/Prefabs/Cleaning/CleaningTools/BroomOutdoor.prefab
+  artifactKey: Guid(fa2f31b0d10c65949b68ef422800ef90) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Prefabs/Cleaning/CleaningTools/BroomOutdoor.prefab using Guid(fa2f31b0d10c65949b68ef422800ef90) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'adc0a895e21fdfc33d9c5bbd3821fe65') in 0.0502353 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/CheckoutFrenzy/Scripts/Products/Editor/LicenseEditor.cs
+  artifactKey: Guid(eeed83b158c6b684d8ff929209a31337) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Scripts/Products/Editor/LicenseEditor.cs using Guid(eeed83b158c6b684d8ff929209a31337) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a588c3f2562ec2f461a10597a6caed3b') in 0.0229881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/CheckoutFrenzy/Prefabs/Customers/Men/King.prefab
+  artifactKey: Guid(1ab5bf6fc7bf7634caea6f99b68d9b8c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Prefabs/Customers/Men/King.prefab using Guid(1ab5bf6fc7bf7634caea6f99b68d9b8c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '24bb6177838d97141286ace84110d1d4') in 0.3729225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 170
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/CheckoutFrenzy/Scripts/UI/Checkout/PaymentTerminal.cs
+  artifactKey: Guid(0b88417d28a38e44299f374d05a774fa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Scripts/UI/Checkout/PaymentTerminal.cs using Guid(0b88417d28a38e44299f374d05a774fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0eb0f823030d11ebc296d5660c3885b4') in 0.0454339 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/CheckoutFrenzy/Scripts/UI/PC/PCMonitor.cs
+  artifactKey: Guid(c70686d17c6ddf64b81c08cbbbec8650) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Scripts/UI/PC/PCMonitor.cs using Guid(c70686d17c6ddf64b81c08cbbbec8650) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2b82cd717c7c77e02b72aab4f3cc9357') in 0.0255103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/CheckoutFrenzy/Sounds/SFX/CleaningTools/Mop.wav
+  artifactKey: Guid(a0efcfa6ddb26e14a97a64c5418e1939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Sounds/SFX/CleaningTools/Mop.wav using Guid(a0efcfa6ddb26e14a97a64c5418e1939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8ec9923154b2619175c46274d168f641') in 0.0453907 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CheckoutFrenzy/Scripts/UI/PC/FurnitureListing.cs
+  artifactKey: Guid(73a39dfee7d3d83488385da20ea4f512) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Scripts/UI/PC/FurnitureListing.cs using Guid(73a39dfee7d3d83488385da20ea4f512) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '567fccc65e4f75b78c0f9c9809756097') in 0.0256985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/CheckoutFrenzy/Sounds/SFX/CleaningTools/SweepSmooth.wav
+  artifactKey: Guid(90d1e4aee4b1a8a4d87f62a6baeee6ac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Sounds/SFX/CleaningTools/SweepSmooth.wav using Guid(90d1e4aee4b1a8a4d87f62a6baeee6ac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a334ede52bce109f4e850fc400bc9fd4') in 0.0595005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/CheckoutFrenzy/Prefabs/Customers/Women/Punk.prefab
+  artifactKey: Guid(e2d82eefec33bb04ea4224b8f9bf11ed) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Prefabs/Customers/Women/Punk.prefab using Guid(e2d82eefec33bb04ea4224b8f9bf11ed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd1a6158ff2ada92ccbabd98eed1e0e2e') in 0.3560594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 170
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/CheckoutFrenzy/Sprites/UI/Alphabets/G.png
+  artifactKey: Guid(2d4d629ff7570c44c8cc3ff4e543c588) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Sprites/UI/Alphabets/G.png using Guid(2d4d629ff7570c44c8cc3ff4e543c588) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e12a6af88400faae2b9018109e2668b5') in 0.0667373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/CheckoutFrenzy/Sprites/UI/Alphabets/A.png
+  artifactKey: Guid(bfb2f101d1cb3a74690d055aa49fc4c3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Sprites/UI/Alphabets/A.png using Guid(bfb2f101d1cb3a74690d055aa49fc4c3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '203da1542672d696e6572ac506bc6476') in 0.0524922 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CheckoutFrenzy/Prefabs/Customers/Men/Adventurer.prefab
+  artifactKey: Guid(fb2ff158c656a6f44ae3bf1b44bf00e7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Prefabs/Customers/Men/Adventurer.prefab using Guid(fb2ff158c656a6f44ae3bf1b44bf00e7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '27a1f5068fe98bd82465f39864dab5e4') in 0.3882759 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 170
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/CheckoutFrenzy/Sprites/UI/Alphabets/P.png
+  artifactKey: Guid(fd5068d9ac745d54fbd7dceae33bf3e9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Sprites/UI/Alphabets/P.png using Guid(fd5068d9ac745d54fbd7dceae33bf3e9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd23215bbc24ef9e0ab0e9ebbdc94b09f') in 0.0386144 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/CheckoutFrenzy/Sprites/UI/Alphabets/U.png
+  artifactKey: Guid(20ec9971fc8b0f6428ad5926751346d5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Sprites/UI/Alphabets/U.png using Guid(20ec9971fc8b0f6428ad5926751346d5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9f46befe50a25c1587d742574487e46f') in 0.0502555 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CheckoutFrenzy/Sprites/UI/Employees/Stocker.png
+  artifactKey: Guid(a2c8c9e12d50a4540a7fe1c5d90377ca) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Sprites/UI/Employees/Stocker.png using Guid(a2c8c9e12d50a4540a7fe1c5d90377ca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4000f2e39111c8ab1e266c16251c80f1') in 0.0448063 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/CheckoutFrenzy/Sprites/UI/Alphabets/O.png
+  artifactKey: Guid(e80002fe4f3abc7438ea0471bd858fc4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Sprites/UI/Alphabets/O.png using Guid(e80002fe4f3abc7438ea0471bd858fc4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a24b3134391106db5e3fd53bb844241') in 0.0783726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/CheckoutFrenzy/Sprites/UI/Alphabets/Y.png
+  artifactKey: Guid(fa45cf9510ba77947af1694e74c295c4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Sprites/UI/Alphabets/Y.png using Guid(fa45cf9510ba77947af1694e74c295c4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6d26b9b028a81787eb2215f241055b64') in 0.0533815 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AlmostEngine/UltimateScreenshotCreator/Assets/Scripts/MultiDisplayCameraCapture.cs
+  artifactKey: Guid(d140d4310e9747e4da4db980e1636e6f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AlmostEngine/UltimateScreenshotCreator/Assets/Scripts/MultiDisplayCameraCapture.cs using Guid(d140d4310e9747e4da4db980e1636e6f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'db5524592bb2410d35ad9524a4d43391') in 0.0235794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/CheckoutFrenzy/Scripts/Customer/Editor/DialogueEditor.cs
+  artifactKey: Guid(950ae3dcafa455e4d8ac19ade66c5cca) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Scripts/Customer/Editor/DialogueEditor.cs using Guid(950ae3dcafa455e4d8ac19ade66c5cca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '503e15f4dc543634914e43143da32635') in 0.022345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/CheckoutFrenzy/Sprites/UI/Alphabets/Z.png
+  artifactKey: Guid(39d2af41a01d5eb4e804de31e6cddeb1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Sprites/UI/Alphabets/Z.png using Guid(39d2af41a01d5eb4e804de31e6cddeb1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7b72dcf15c3529f58f120b5b82b320e5') in 0.0367648 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/AxisInputs/AxisInputKeyboard.cs
+  artifactKey: Guid(a974ad01c9fdb5e408702ee48afc38e9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/SimpleInput/Scripts/AxisInputs/AxisInputKeyboard.cs using Guid(a974ad01c9fdb5e408702ee48afc38e9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e494820d01eedece63d3909eb3a4631d') in 0.026819 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/AxisInputs/Joystick.cs
+  artifactKey: Guid(1d42b387efc83be49900b546e4052e28) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/SimpleInput/Scripts/AxisInputs/Joystick.cs using Guid(1d42b387efc83be49900b546e4052e28) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '29a3a4c6fe499b696758ee3736c4762e') in 0.0235689 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/Ump/ConsentForm.prefab
+  artifactKey: Guid(32087445d9e7f4577ae9170a6b11f114) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GoogleMobileAds/Editor/Resources/Ump/ConsentForm.prefab using Guid(32087445d9e7f4577ae9170a6b11f114) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'baf73eeadee9c4dddb07501bb793e341') in 0.0457644 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs
+  artifactKey: Guid(a060394c03331a64392db53a10e7f2d1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs using Guid(a060394c03331a64392db53a10e7f2d1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '71ba7d9c0e73401c4c504335e5b73bdf') in 0.02477 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs
+  artifactKey: Guid(188918ab119d93148aa0de59ccf5286b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs using Guid(188918ab119d93148aa0de59ccf5286b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '744d1ada5c66ff08f22e859e87440bb5') in 0.0482076 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/CheckoutFrenzy/Textures/Cleaning/Effects/Leaf.png
+  artifactKey: Guid(64446d3bbfedcc145a92707452b5b1d4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Textures/Cleaning/Effects/Leaf.png using Guid(64446d3bbfedcc145a92707452b5b1d4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e2b3fd9e3acae350a32f8ad97b81284d') in 0.0355477 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/AxisInputs/AxisInputUI.cs
+  artifactKey: Guid(fda952153dba3064ab80a62889c1583f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/SimpleInput/Scripts/AxisInputs/AxisInputUI.cs using Guid(fda952153dba3064ab80a62889c1583f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f8051a1ab076f666f7a51d0b00b4f116') in 0.0238479 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs
+  artifactKey: Guid(dae9aa560b4242648a3affa2bfabc365) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs using Guid(dae9aa560b4242648a3affa2bfabc365) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '42df43717772c3cf5ce2d58c27f5b1e6') in 0.0245959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/CheckoutFrenzy/Textures/Roads/Sidewalk.png
+  artifactKey: Guid(dc7d42426d86f70478a41158b4c5c6f2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Textures/Roads/Sidewalk.png using Guid(dc7d42426d86f70478a41158b4c5c6f2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3d8d0acae1749452d6000c8e3061c028') in 0.0391924 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/AlmostEngine/UltimateScreenshotCreator/Example/Scripts/ValidationCanvas.cs
+  artifactKey: Guid(829c9b91b5d11d04596220bd53f19323) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AlmostEngine/UltimateScreenshotCreator/Example/Scripts/ValidationCanvas.cs using Guid(829c9b91b5d11d04596220bd53f19323) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f1b74d959d84bb1873fd8a0a4ec64e8f') in 0.0238928 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/AlmostEngine/UltimateScreenshotCreator/Example/Textures/Unity.png
+  artifactKey: Guid(baeb849b4a0f7364b864f60126fed0c1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AlmostEngine/UltimateScreenshotCreator/Example/Textures/Unity.png using Guid(baeb849b4a0f7364b864f60126fed0c1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b962997ed265cd3fa72a7c36d082c704') in 0.0386228 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/ButtonInputs/ButtonInputSwipeGesture.cs
+  artifactKey: Guid(8a90681e07d4e3c47a110a9555eea57c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/SimpleInput/Scripts/ButtonInputs/ButtonInputSwipeGesture.cs using Guid(8a90681e07d4e3c47a110a9555eea57c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '19a2f73572f05e239d159bae6dccb289') in 0.0221032 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/AlmostEngine/UltimateScreenshotCreator/Assets/Scripts/Utils/GameViewController.cs
+  artifactKey: Guid(90c0ea2518f93d2458a8b25bed7a1b8d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AlmostEngine/UltimateScreenshotCreator/Assets/Scripts/Utils/GameViewController.cs using Guid(90c0ea2518f93d2458a8b25bed7a1b8d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f8d5db561cae6cea9823d8fcf29773d5') in 0.0221131 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AdImages/468x60.png
+  artifactKey: Guid(74358f5fb13a549aabac4a5a7ac76739) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AdImages/468x60.png using Guid(74358f5fb13a549aabac4a5a7ac76739) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9780bc61d853f7fd5cb0ce30869ff5ed') in 0.064806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/KeyInputs/KeyInputSwipeGesture.cs
+  artifactKey: Guid(2d07eac9db8e46d4d862e4ba985d21ca) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/SimpleInput/Scripts/KeyInputs/KeyInputSwipeGesture.cs using Guid(2d07eac9db8e46d4d862e4ba985d21ca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f851733c1299b95e4e7591e1b377d2ff') in 0.0238816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/AlmostEngine/UltimateScreenshotCreator/Assets/Scripts/Utils/WebGLUtils.cs
+  artifactKey: Guid(84444b78b8631aa4688340345a03cb6c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AlmostEngine/UltimateScreenshotCreator/Assets/Scripts/Utils/WebGLUtils.cs using Guid(84444b78b8631aa4688340345a03cb6c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '73dea9fc547748ede09078b25c2d2594') in 0.0229174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/MouseButtonInputs/MouseButtonInputUI.cs
+  artifactKey: Guid(e4107d86bdaba964b8bcaf073e647b74) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/SimpleInput/Scripts/MouseButtonInputs/MouseButtonInputUI.cs using Guid(e4107d86bdaba964b8bcaf073e647b74) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0f6e5d183d5944c1f2b6ade813949e26') in 0.0246944 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/ShadedDark/shadedDark11.png
+  artifactKey: Guid(68779cbdef076cc4fa3f6e3c4edc7873) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/SimpleInput/Sprites/ShadedDark/shadedDark11.png using Guid(68779cbdef076cc4fa3f6e3c4edc7873) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '57c42d9b397ac7f3d55fc84fc9342bd1') in 0.0387632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/AlmostEngine/UltimateScreenshotCreator/Assets/Scripts/Utils/LayoutUtils.cs
+  artifactKey: Guid(9a662a8942ff277448e88a04d6ef8279) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AlmostEngine/UltimateScreenshotCreator/Assets/Scripts/Utils/LayoutUtils.cs using Guid(9a662a8942ff277448e88a04d6ef8279) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3ad3a463749cf3c1940f66319595e6e4') in 0.0240752 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AdImages/300x250.png
+  artifactKey: Guid(898f886a39d714db5b90d2c36676c894) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AdImages/300x250.png using Guid(898f886a39d714db5b90d2c36676c894) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1230ecb5c78da7b4e80a557098af8390') in 0.0382299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/MouseButtonInputs/MouseButtonInputKeyboard.cs
+  artifactKey: Guid(5409ad7137422ce48b283ed417156c5b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/SimpleInput/Scripts/MouseButtonInputs/MouseButtonInputKeyboard.cs using Guid(5409ad7137422ce48b283ed417156c5b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '29619e17993a99d9b8673900bb29dd81') in 0.0223561 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/CheckoutFrenzy/Scripts/UI/PC/CartItem.cs
+  artifactKey: Guid(4b50e3afce4e42a49a91b55dabefa228) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Scripts/UI/PC/CartItem.cs using Guid(4b50e3afce4e42a49a91b55dabefa228) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6a07c154b1ecc09f521a9d0003c71b25') in 0.0220459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/CheckoutFrenzy/ScriptableObjects/BillTemplates/Electricity.asset
+  artifactKey: Guid(d16740acc264e1549b13576af140ce79) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/ScriptableObjects/BillTemplates/Electricity.asset using Guid(d16740acc264e1549b13576af140ce79) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fc863001b2c9a06f976d079cff797c2d') in 0.0267089 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/ShadedDark/Buttons/shadedDark45.png
+  artifactKey: Guid(be6deb8bf525f96498b79add47297699) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/SimpleInput/Sprites/ShadedDark/Buttons/shadedDark45.png using Guid(be6deb8bf525f96498b79add47297699) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e84309c41d415534c3b290c32b774ecc') in 0.0827505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png
+  artifactKey: Guid(7051dba417b3d53409f2918f1ea4938d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png using Guid(7051dba417b3d53409f2918f1ea4938d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'effbf15b1631d0c1fe77b2fb29222d49') in 0.0493538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Banners/FULL_BANNER.prefab
+  artifactKey: Guid(a01bd5a6d0f504aecb61dad504950abd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Banners/FULL_BANNER.prefab using Guid(a01bd5a6d0f504aecb61dad504950abd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e294027a807187d921b8390b681defb3') in 0.036712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/ShadedDark/Arrows/shadedDark26.png
+  artifactKey: Guid(e2f20be4a9f1c184485bcdc7bc65e23f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/SimpleInput/Sprites/ShadedDark/Arrows/shadedDark26.png using Guid(e2f20be4a9f1c184485bcdc7bc65e23f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9335c5cd5eb6b12ac76065b657ee8b94') in 0.0369597 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/ShadedLight/DpadMultiplePieces/shadedLight05.png
+  artifactKey: Guid(9329ad6eca7fdf849b8885dea848b783) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/SimpleInput/Sprites/ShadedLight/DpadMultiplePieces/shadedLight05.png using Guid(9329ad6eca7fdf849b8885dea848b783) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0bc3d49f19e274cc74f51244aa344043') in 0.0386257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Rewarded/1024x768.prefab
+  artifactKey: Guid(ac0a546bb4fb349229fc5824b288ec00) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Rewarded/1024x768.prefab using Guid(ac0a546bb4fb349229fc5824b288ec00) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5728485cbffdf278b8a7e2f2601a65a4') in 0.0613275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Banners/BANNER.prefab
+  artifactKey: Guid(b2a8ac187bcca47a286cb00c8094da36) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Banners/BANNER.prefab using Guid(b2a8ac187bcca47a286cb00c8094da36) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4b7b955f2999a795671df9f776dcfcb3') in 0.0351591 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/ShadedDark/Arrows/shadedDark27.png
+  artifactKey: Guid(83b4d2d7539de7a439576f4abc1d8354) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/SimpleInput/Sprites/ShadedDark/Arrows/shadedDark27.png using Guid(83b4d2d7539de7a439576f4abc1d8354) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0f3f39cb002ad1dfebfc7946c037f5c5') in 0.0401068 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AdImages/AdInspectorHome.png
+  artifactKey: Guid(d271d6a1aed6848559ecad6252e333b1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AdImages/AdInspectorHome.png using Guid(d271d6a1aed6848559ecad6252e333b1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c8be8a64125b1561438057fdeea20c68') in 0.0478734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Banners/LARGE_BANNER.prefab
+  artifactKey: Guid(2758392ec5c0c413886eaf50350c125e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Banners/LARGE_BANNER.prefab using Guid(2758392ec5c0c413886eaf50350c125e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fbd8d7d35f943a9eb6d36e398189024a') in 0.0633928 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CheckoutFrenzy/Textures/Products/Pasta01.png
+  artifactKey: Guid(81670a1a6dd28bc49adad2d9b4bfa6e8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Textures/Products/Pasta01.png using Guid(81670a1a6dd28bc49adad2d9b4bfa6e8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2b1f9ed0f122f59477c5efa73508b420') in 0.0409265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CheckoutFrenzy/Textures/Products/SlicedBread01.png
+  artifactKey: Guid(86cc61cdd13977a458f0d703cb7e3a6c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Textures/Products/SlicedBread01.png using Guid(86cc61cdd13977a458f0d703cb7e3a6c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6efe44cad8331a583511fbe802bd0df7') in 0.03995 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/CheckoutFrenzy/Prefabs/Products/Juice01_B.prefab
+  artifactKey: Guid(9df58589832355d47ab2666583ba8716) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Prefabs/Products/Juice01_B.prefab using Guid(9df58589832355d47ab2666583ba8716) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9ffe2de84718e7bc7dbfbf2e3227dacc') in 0.0471215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+  artifactKey: Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf using Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '425d67406a977b18c9aa4906ba128a92') in 0.0226135 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/CheckoutFrenzy/Scripts/Store/Expansion.cs
+  artifactKey: Guid(057a7ddc27da3a949b1921e90a75d1ef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Scripts/Store/Expansion.cs using Guid(057a7ddc27da3a949b1921e90a75d1ef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f52140ef8b019912076e61989be38de8') in 0.0208958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/CheckoutFrenzy/Scripts/Employee/Sorter.cs
+  artifactKey: Guid(62bd8184d7c41a347927d01551fd0025) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Scripts/Employee/Sorter.cs using Guid(62bd8184d7c41a347927d01551fd0025) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4b79e56d0fae36874ba4fd1f8d482414') in 0.0234495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/CheckoutFrenzy/Scripts/Mission/Mission.cs
+  artifactKey: Guid(7693347560999cb4da256387cfbe4ccc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Scripts/Mission/Mission.cs using Guid(7693347560999cb4da256387cfbe4ccc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '56ea5659e14a537070c554d12bb8a2bc') in 0.0253366 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/CheckoutFrenzy/Scripts/Traffic/Car.cs
+  artifactKey: Guid(a4ec6203322a8bc47aca297cf7940759) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Scripts/Traffic/Car.cs using Guid(a4ec6203322a8bc47aca297cf7940759) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a20d3ccd9643bdff4149eec64bc818de') in 0.0217491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/CheckoutFrenzy/Scripts/Data/Orientation.cs
+  artifactKey: Guid(47b0dd16ef5f3e542808dbbeb8edc33b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Scripts/Data/Orientation.cs using Guid(47b0dd16ef5f3e542808dbbeb8edc33b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '15342eb3cbf4f6bf7d449539bc9bd1ad') in 0.0227491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/GoogleMobileAds/Editor/GradleProcessor.cs
+  artifactKey: Guid(ee0016d28899644a9bbcb67f438d41bd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GoogleMobileAds/Editor/GradleProcessor.cs using Guid(ee0016d28899644a9bbcb67f438d41bd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6973a041a05af98d8bf52bab61df5eed') in 0.0251054 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/CheckoutFrenzy/Models/Kenney_City_Kit/large_buildingF.fbx
+  artifactKey: Guid(81c9462c826349244b6ef318c76efbcf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Models/Kenney_City_Kit/large_buildingF.fbx using Guid(81c9462c826349244b6ef318c76efbcf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fa6cb618ac7eb63bb4a90b7a09cf080d') in 0.0629651 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+  artifactKey: Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt using Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2eaf44b330d492159b745c75f1b00d12') in 0.036548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/CheckoutFrenzy/Prefabs/CityKit/low_wideA.prefab
+  artifactKey: Guid(d717fa4254cfba744947e7f04e30fe36) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CheckoutFrenzy/Prefabs/CityKit/low_wideA.prefab using Guid(d717fa4254cfba744947e7f04e30fe36) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ce037f760f3029f9913588760571b122') in 0.0572613 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
